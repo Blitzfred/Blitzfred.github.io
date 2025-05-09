@@ -7,10 +7,6 @@ body {
   }
 
   .hero {
-    display: flex;
-    align-items: center;          /* vertikal zentriert */
-    justify-content: space-between;
-    padding: 20px;
     background-image: url("/image/Hero.png");
     height: 50%;
 
