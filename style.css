@@ -16,8 +16,9 @@ body {
   }
   
   .logo img {
-    height: 200px;
-    width: auto;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
   }
   
   .header-text {
