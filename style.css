@@ -17,9 +17,14 @@ body {
     padding: 180px;
   }
   
+.logo {
+  height: 60px;
+}
+
   .logo img {
-    width: 100%;
+    width: auto;
     height: auto;
+    max-height: 60px;
   }
   
   .hero-text {
@@ -31,10 +36,11 @@ body {
     background: #333;
     color: white;
     position: fixed;
-    top: -50px;
+    top: -60px;
     width: 100%;
     display: block;
     transition: top 0.3s;
+    height: 60px;
   }
 
   nav a {
